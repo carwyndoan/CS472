@@ -1,0 +1,25 @@
+body {
+ background:rgb(144, 142, 156);
+ font-family: 'Happy Monkey', cursive;
+ font-size: 11pt;
+}
+
+h1 {
+  font-family: 'Comic Sans MS', 'Comic Sans', Serif;
+  font-weight: bold;
+  color:rgb(80, 82, 199);
+}
+
+h3 {
+  font-family: "Comic Sans MS", "Comic Sans", Serif;
+  font-weight: bold;
+  color:rgb(80, 82, 199);
+}
+
+#heart {
+  color: yellow;
+}
+
+#eyes {
+  color: brown;
+}
