@@ -16,7 +16,8 @@ body {
     font: 13pt 'Bad Script', cursive;/*georgia, sans-serif;*/
     line-height: 1.88889;
     color: #555753;
-    background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
+    /*background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;*/
+    background: #fff url(zen.jpg) no-repeat bottom right;
     margin: 0;
     padding: 0;
     font-weight:bold;
@@ -34,7 +35,7 @@ h3 {
 a:link {
     font-weight: bold;
     text-decoration: none;
-    color: #8C63BA;/*#b7a5df;*/
+    color: #b7a5df;
 }
 a:visited {
     font-weight: bold;
