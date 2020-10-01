@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Learn HTML" />
+    <meta name="keywords" content="HTML,CSS" />
+    <meta name="viewport" content="width =device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link href="formstyle.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <form action="" method="post">
+        <div id="outer-grid">
+            <div class="header">Workshop Registration</div>
+
+            <div id="inner-grid">
+                <div class="subheader">Register now while seats are available!</div>
+                <div><label for="txtFirstname" class="required">First Name</label></div>
+                <div><input type="text" id="txtFirstname" required /></div>
+                <div><label for="txtLastname" class="required">Last Name</label></div>
+                <div><input type="text" id="txtLastname" required /></div>
+                <div><label for="txtCompany" class="required">Company/Institution</label></div>
+                <div><input type="text" id="txtCompany" required /></div>
+                <div><label for="txtAddress" class="required">Last Name</label></div>
+                <div><input type="text" id="txtAddress" required /></div>
+                <div><label for="txtCity">City</label></div>
+                <div><input type="text" id="txtCity"/></div>
+                <div><label for="cmbState">State/Province/Region</label></div>
+                <div><select id="cmbState">
+                    <option value="">-Select-</option>
+                    <option value="IA">Iowa</option>
+                </select></div>
+                <div><label for="cmbCountry">Country</label></div>
+                <div><select id="cmbCountry">
+                    <option value="">-Select-</option>
+                    <option value="USA">United States</option>
+                    <option value="VIE">Viet Nam</option>
+                </select></div>
+                <div><label for="txtEmail" class="required">Email</label></div>
+                <div><input type="text" id="txtEmail" required /></div>
+                <div><label for="txtPhone" class="required">Phone Number</label></div>
+                <div><input type="text" id="txtPhone" required /></div>
+            </div>
+            <div id="inner-grid">
+                <div class="subheader">Lunch</div>
+                <div><label for="cmbMeal">Meal Preference</label></div>
+                <div><select id="cmbMeal">
+                    <option value="">-Select-</option>
+                    <option value="D">Diet</option>
+                    <option value="N">Non-Diet</option>
+                </select></div>
+                <div class="subheader1">Payment details</div>
+                <div id="divPayment"><label>Payment Mode</label></div>
+                <div><input type="checkbox" name="cash" id="chkCash"/><label for="chkCash">Cash</label></div>
+                <div><input type="checkbox" name="cheque" id="chkCheque"/><label for="chkCheque">Cheque</label></div>
+                <div><input type="checkbox" name="draft" id="chkDraft"/><label for="chkDraft">Demand Draft</label></div>
+                <div><label for="txtChequeNo">DD/Cheque No.</label></div>
+                <div><input type="text" id="txtChequeNo"/></div>
+                <div><label for="txtBank">Drawn On (Bank Name)</label></div>
+                <div><input type="text" id="txtBank"/></div>
+                <div><label for="txtPayat">Payable at</label></div>
+                <div><input type="text" id="txtPayat"/></div>
+            </div>
+            <div class="footer"><input type="submit" class="button"/><input type="reset" class="button"/></div>
+        </div>
+    </form>
+    
+    <p>
+        <a href="https://validator.w3.org/check?uri=carwyndoan.github.io/CS472/aboutme.html">
+            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/>
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=carwyndoan.github.io/CS472/aboutme.html">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="html validator"/>
+        </a>
+    </p>
+</body>
+</html>
