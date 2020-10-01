@@ -13,7 +13,7 @@ html {
     padding: 0;
 }
 body {
-    font: 75% georgia, sans-serif;
+    font: 13pt 'Bad Script', cursive;/*georgia, sans-serif;*/
     line-height: 1.88889;
     color: #555753;
     background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
@@ -33,7 +33,7 @@ h3 {
 a:link {
     font-weight: bold;
     text-decoration: none;
-    color: #b7a5df;
+    color: #8C63BA;/*#b7a5df;*/
 }
 a:visited {
     font-weight: bold;
