@@ -15,7 +15,7 @@ html {
 body {
     font: 13pt 'Bad Script', cursive;/*georgia, sans-serif;*/
     line-height: 1.88889;
-    color: #555753;
+    color: white;/*#555753;*/
     /*background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;*/
     background: #fff url(zen.jpg) no-repeat bottom right;
     margin: 0;
