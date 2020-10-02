@@ -10,9 +10,9 @@
     <link href="formstyle.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-    <form action="" method="post">
+    <form method="post">
         <div id="outer-grid">
-            <div class="header">Workshop Registration</div>
+            <div class="header">Workshop Registration<label id="lbl">More Actions &#x25BC;</label></div>
             <div id="inner-grid">
                 <div class="subheader">Register now while seats are available!</div>
                 <div><label for="txtFirstname" class="required">First Name</label></div>
@@ -21,8 +21,8 @@
                 <div><input type="text" id="txtLastname" required /></div>
                 <div><label for="txtCompany" class="required">Company/Institution</label></div>
                 <div><input type="text" id="txtCompany" required /></div>
-                <div><label for="txtAddress" class="required">Last Name</label></div>
-                <div><input type="text" id="txtAddress" required /></div>
+                <div><label for="txtAddress" class="required">Address</label></div>
+                <div><textarea id="txtAddress" required rows="4"></textarea></div>
                 <div><label for="txtCity">City</label></div>
                 <div><input type="text" id="txtCity"/></div>
                 <div><label for="cmbState">State/Province/Region</label></div>
@@ -37,9 +37,9 @@
                     <option value="VIE">Viet Nam</option>
                 </select></div>
                 <div><label for="txtEmail" class="required">Email</label></div>
-                <div><input type="text" id="txtEmail" required /></div>
+                <div><input type="email" id="txtEmail" required pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,3}"/></div>
                 <div><label for="txtPhone" class="required">Phone Number</label></div>
-                <div><input type="text" id="txtPhone" required /></div>
+                <div><input type="tel" id="txtPhone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /></div>
             </div>
             <div id="inner-grid">
                 <div class="subheader">Lunch</div>
