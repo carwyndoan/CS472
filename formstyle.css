@@ -18,8 +18,13 @@ body {
 }
 .header {
     background: lightgreen;
-    font-size: 4vw;
+    font-size: 20pt;
     grid-area: 1 / 1 / 1 / 3;
+}
+#lbl {
+  font-size: 12pt;
+  font-weight: normal;
+  padding-left: 60px;
 }
 .subheader {
     grid-area: 1 / 1 / 1 / 3;
@@ -59,7 +64,23 @@ label {
 }
 
 select {
-    width: 100%;
+    width: 75%;
+}
+
+input[type="text"] {
+    width: 70%;
+}
+
+textarea {
+    width: 70%;
+}
+
+input[type="email"] {
+    width: 70%;
+}
+
+input[type="tel"] {
+    width: 70%;
 }
 
 #divPayment {
