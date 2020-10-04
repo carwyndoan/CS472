@@ -1,0 +1,28 @@
+body {
+    font-size: 12pt;
+}
+.bodybling {
+    background-image: url('http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg');
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    font-style: italic;
+}
+
+fieldset > legend {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+}
+
+textarea {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bling {
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
