@@ -53,9 +53,9 @@ const teacherObj = Object.create(personObj);
 teacherObj.teach = function (subject) {
     console.log(this.name + " is now teaching " + subject);
 };
-//const teacher1 = Object.create(teacherObj);
-teacherObj.setName("Tina Xing");
-teacherObj.teach("WAP");
+const teacher1 = Object.create(teacherObj);
+teacher1.setName("Tina Xing");
+teacher1.teach("WAP");
 
 /*
 Exercise 4:
